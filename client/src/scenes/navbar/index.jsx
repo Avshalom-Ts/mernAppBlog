@@ -1,5 +1,15 @@
 import { useState } from "react";
-import { Box,IconButton,InputBase,Typography,Select,MenuItem,FormControl,useTheme,useMediaQuery } from "@mui/material";
+import {
+  Box,
+  IconButton,
+  InputBase,
+  Typography,
+  Select,
+  MenuItem,
+  FormControl,
+  useTheme,
+  useMediaQuery
+} from "@mui/material";
 import {
   Search,
   Message,
@@ -29,7 +39,9 @@ const Navbar = () => {
   const primaryLight = theme.palette.primary.light;
   const alt = theme.palette.background.alt;
 
-  const fullName = `${user.firstName} ${user.lastName}`;
+  // const fullName = `${user.firstName} ${user.lastName}`;
+  const fullName = `Avshalom`;
+
 
 
   return (
